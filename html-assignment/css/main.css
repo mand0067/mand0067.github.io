@@ -5,3 +5,17 @@ body{
 header,footer{
     background-color: blue;
 }
+p:nth-child(odd) {
+    background: red;
+  }
+  a:link {
+    text-decoration: none;
+  }
+  a {
+    color: purple; 
+    background-color: yellow;
+  }
+  a:hover {
+    background-color: yellow;
+    background-color: lightgreen;
+  }
